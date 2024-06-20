@@ -4,7 +4,7 @@ const Links = [
   {href:"/counter", text:"counter"},
   {href:"/bar", text:"bar"},
   {href:"/todo-list", text:"todo list"},
-  {href:"/query", text:"query"},
+  {href:"/prisma", text:"prisma"},
 ]
 
 const Navbar = () => {
