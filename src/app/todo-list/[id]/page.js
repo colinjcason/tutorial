@@ -5,10 +5,12 @@ import EditForm from "../../components/EditForm"
 const SingleTodo = async ({ params }) => {
   const task = await getTask(params.id)
   return (
-    <div className="mb-16">
-      <Link href="/todo-list" className="btn btn-accent">Back</Link>
+    <>
+      <div className="mb-16">
+        <Link href="/todo-list" className="btn btn-accent">Back</Link>
+      </div>
       <EditForm task={task} />
-    </div>
+    </>
   )
 }
 
